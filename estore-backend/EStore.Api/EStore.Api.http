@@ -1,0 +1,10 @@
+@EStore.Api_HostAddress = https://localhost:7197
+
+### Get all products
+GET {{EStore.Api_HostAddress}}/api/products
+Accept: application/json
+
+###
+### Get a single product by its ID (replace with a real ID from your DB)
+GET {{EStore.Api_HostAddress}}/api/products/08dbe996-a3b3-4c4c-83a3-1d4824a35d14
+Accept: application/json
